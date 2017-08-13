@@ -64,7 +64,7 @@ Window {
                     width: parent.width * 0.9
                     height: 30
                     anchors.horizontalCenter: parent.horizontalCenter
-                    color: select == hash ? "#2f2" : "#9f9"
+                    color: select == hash ? "#2da6f7" : "#6bcafd"
                     Text {
                         anchors.centerIn: parent
                         text: name.substring(name.lastIndexOf("/"))
@@ -81,7 +81,7 @@ Window {
                         width: 20
                         height: parent.height
                         anchors.right: parent.right
-                        color: "#ff9"
+                        color: select == hash ? "#6bcafd" : "#2da6f7"
                         Text {
                             id: del
                             anchors.centerIn: parent
